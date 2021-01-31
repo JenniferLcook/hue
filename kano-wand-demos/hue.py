@@ -76,8 +76,8 @@ class LightManager():
         }
         self.current = self.color_values[None]
         # Bridge api values
-        self.bridge_ip = "192.168.1.22"
-        self.username = "dBHN8d6Qkw6EJMqzEI2oI0zXJGiOdvyE2lRzFha8"
+        self.bridge_ip = "192.168.86.50"
+        self.username = "gZWlDpwsdjWLBThdTXSyjXxWsyrAwr6byHxxUktI"
         # Bridge object and lights
         self.bridge = Bridge(self.bridge_ip, self.username)
         self.light_ids = ["1"]
